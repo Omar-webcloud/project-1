@@ -6,8 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -348,35 +347,70 @@ footer p{
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
-        height: auto;
+        align-items: center;
+        text-align: center;
     }
 
-    .section1,
-    .section1button {
-        position: relative !important;
-        transform: none !important;
-        left: auto !important;
-        top: auto !important;
-        width: 100%;
-        text-align: center;
-        margin: 20px auto;
+    .section1 {
+        position: static;
+        transform: none;
+        margin-top: 100px;
     }
 
     .section1 img {
-        height: 180px;
+        height: 200px;
         width: auto;
     }
 
-    .section1button h1 {
-        font-size: 2rem;
-        letter-spacing: 5px;
+    .section1button {
+        position: static;
+        transform: none;
+        margin-top: 20px;
     }
 
+    .section1button h1,
     .section1button h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        line-height: 1.2;
+        letter-spacing: 3px;
     }
 
     .btn {
-        margin-top: 15px;
+        margin-top: 10px;
+    }
+
+    .SearchArea {
+        right: 20px;
+        top: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .logo img {
+        left: 20px;
+        top: 20px;
+        height: 60px;
+        width: 100px;
+    }
+
+    .iconArea {
+        left: 0px;
+        top: auto;
+        bottom: 10px;
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        width: 10%;
+        background-color: rgba(230, 230, 230, 0.4);
+        box-shadow: none;
+        
+    }
+
+    .iconArea a {
+        padding: 10px;
+    }
+    .NotificationInput {
+        width: 280px;
+        
     }
 }
