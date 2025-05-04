@@ -342,3 +342,16 @@ footer p{
     text-align: center;
     color: #f2f2f2;
 }
+
+@media screen and (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .SearchArea {
+        position: static;
+        margin: 20px auto;
+    }
+}
