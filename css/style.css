@@ -13,10 +13,12 @@ a{
     text-decoration: none;
 
 }
-.logo{
+.logo img{
     position: absolute;
     left: 90px;
-    top: 50px;
+    top: 30px;
+    height: 80px;
+    width: 140px;
 
 }
 .logo a{
@@ -242,4 +244,39 @@ color: #1f1f1f;
 .productBox:hover a:last-child{
     color: #fff;
     transition: all ease 0.3s;
+}
+.about{
+    display: flex;
+    width: 85%;
+    margin: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.aboutBox{
+    width: 40%;
+    font-family: myriad pro;
+}
+.aboutBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutBox h1{
+    color: #333333;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0px;
+}
+.aboutBox h4{
+    color: #333333;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aboutBox p{
+    font-size: 1rem;
+    color: #696969;
+    letter-spacing: 0.5px;
 }
