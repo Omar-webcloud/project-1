@@ -413,9 +413,11 @@ footer p{
         width: 280px;
         
     }
-.productBox{
-padding-left: 8px;
-}
+
+    .productBox {
+        width: 90%;
+    }
+
 
 
 
