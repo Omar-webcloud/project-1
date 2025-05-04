@@ -355,3 +355,36 @@ footer p{
         margin: 20px auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        position: static;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .section1 img {
+        height: 200px;
+        width: auto;
+    }
+
+    .section1button {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .section1button h1,
+    .section1button h2 {
+        font-size: 2rem;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .btn {
+        margin: 20px auto;
+    }
+}
