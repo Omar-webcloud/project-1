@@ -346,31 +346,37 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
-    .section1 {
-        position: static;
-        transform: none;
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1,
+    .section1button {
+        position: relative !important;
+        transform: none !important;
+        left: auto !important;
+        top: auto !important;
+        width: 100%;
         text-align: center;
-        margin-bottom: 20px;
+        margin: 20px auto;
     }
 
     .section1 img {
-        height: 200px;
+        height: 180px;
         width: auto;
     }
 
-    .section1button {
-        position: static;
-        transform: none;
-        text-align: center;
+    .section1button h1 {
+        font-size: 2rem;
+        letter-spacing: 5px;
     }
 
-    .section1button h1,
     .section1button h2 {
-        font-size: 2rem;
-        line-height: 1.3;
+        font-size: 1.5rem;
     }
 
     .btn {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 }
