@@ -414,10 +414,19 @@ footer p{
         
     }
 
-    .productBox {
-        width: 90%;
-    }
 
+  .productBox {
+    width: 100%;
+    margin: 10px 0;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+
+  .productBox img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
 
 
